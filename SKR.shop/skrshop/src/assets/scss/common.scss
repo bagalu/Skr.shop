@@ -1,0 +1,59 @@
+/* 编写统一样式*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    min-width: 100%;
+    min-height: 1px;
+    font-size: 14px;
+    color: rgba($color: #000000, $alpha: 0.65);
+}
+
+#app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+}
+h1,h2,h3,h4,h5,h6 {
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    color: rgba($color: #000000, $alpha: 0.85);
+    font-weight: 500;
+}
+div{
+    display: block;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+ol,ul,dl{
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+li{
+    list-style: none;
+    box-sizing: border-box;
+}
+a{
+    color: #1090ff;
+    text-decoration: none;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+.clearfot::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+*,*::after,*::before{
+    box-sizing: border-box;
+}
